@@ -122,8 +122,7 @@ library(psych)
 pairs.panels(auto_data)
 ```
 
-Once you do correlations, it is important to find out domain (automobiles in this case) as to why they exist.
-In this example, we are trying to predict miles-per-gallon. The chart shows the Pearson correlation co-efficient
+The chart shows the Pearson correlation co-efficient
 (range -1 to + 1).
 * Number of Cylinders has a high negative correlation to MPG (As Cylinders increase, MPG decreases).
 This is as expected.
