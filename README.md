@@ -112,6 +112,10 @@ library(ggplot2)
 ggplot(auto_data, aes(factor(CYLINDERS), MPG)) +
 geom_boxplot( aes(fill=factor(CYLINDERS)))
 ```
+
+MPG/Cylinders: 
+![alt text](https://github.com/ankurgautam/predictingFuelEconomy/blob/master/Viz/MPG%20Cylinders.png "MPG vs Cylinders")
+
 ```{r}
 library(psych)
 ```
@@ -121,6 +125,9 @@ library(psych)
 ```{r}
 pairs.panels(auto_data)
 ```
+Pearson Correlation: 
+![alt text](https://github.com/ankurgautam/predictingFuelEconomy/blob/master/Viz/pairspanel.png "Correlations")
+
 
 The chart shows the Pearson correlation co-efficient
 (range -1 to + 1).
