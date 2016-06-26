@@ -9,10 +9,11 @@ goal is to come up with a model to predict Miles-per-gallon of a given model.
 2. Data Imputation
 
 ##Data Engineering & Analysis
-```{r}
-setwd("C:/Personal/V2Maestros/Modules/Machine Learning Algorithms/Linear Regression")
 
 ###Loading and understanding the dataset
+
+```{r}
+setwd("C:/Personal/V2Maestros/Modules/Machine Learning Algorithms/Linear Regression")
 
 auto_data <- read.csv("auto-miles-per-gallon.csv")
 
