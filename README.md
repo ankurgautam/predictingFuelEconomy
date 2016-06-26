@@ -12,12 +12,13 @@ goal is to come up with a model to predict Miles-per-gallon of a given model.
 ```{r}
 setwd("C:/Personal/V2Maestros/Modules/Machine Learning Algorithms/Linear Regression")
 
+###Loading and understanding the dataset
+
 auto_data <- read.csv("auto-miles-per-gallon.csv")
 
 str(auto_data)
 ```
 
-###Loading and understanding the dataset
 ```
 ## 'data.frame': 398 obs. of 8 variables:
 ## $ MPG : num 18 15 18 16 17 15 14 14 14 15 ...
