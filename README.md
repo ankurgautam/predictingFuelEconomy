@@ -13,9 +13,9 @@ goal is to come up with a model to predict Miles-per-gallon of a given model.
 ###Loading and understanding the dataset
 
 ```{r}
-setwd("C:/Personal/V2Maestros/Modules/Machine Learning Algorithms/Linear Regression")
+setwd("E:/Mission Machine Learning/Git/predictingFuelEconomy")
 
-auto_data <- read.csv("auto-miles-per-gallon.csv")
+auto_data <- read.csv("Data/auto-miles-per-gallon.csv")  
 
 str(auto_data)
 ```
